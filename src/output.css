@@ -558,8 +558,20 @@ video {
   display: flex;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.max-w-\[450px\] {
+  max-width: 450px;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -570,9 +582,31 @@ video {
   justify-content: center;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .bg-zinc-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(9 9 11 / var(--tw-bg-opacity));
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.text-zinc-300 {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 216 / var(--tw-text-opacity));
 }
 
 .text-zinc-50 {
